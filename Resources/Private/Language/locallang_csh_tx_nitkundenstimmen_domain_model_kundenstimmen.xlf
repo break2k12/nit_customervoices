@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-26T19:56:15Z" product-name="nit_kundenstimmen">
+		<header/>
+		<body>
+
+			<trans-unit id="company.description">
+				<source>company</source>
+			</trans-unit>
+			<trans-unit id="customeropinion.description">
+				<source>customeropinion</source>
+			</trans-unit>
+			<trans-unit id="customer.description">
+				<source>customer</source>
+			</trans-unit>
+			<trans-unit id="teaser.description">
+				<source>teaser</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

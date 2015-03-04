@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-26T19:56:15Z" product-name="nit_kundenstimmen">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_nitkundenstimmen_domain_model_kundenstimmen">
+				<source>Kundenstimmen</source>
+			</trans-unit>
+			<trans-unit id="tx_nitkundenstimmen_domain_model_kundenstimmen.company">
+				<source>company</source>
+			</trans-unit>
+			<trans-unit id="tx_nitkundenstimmen_domain_model_kundenstimmen.customeropinion">
+				<source>customeropinion</source>
+			</trans-unit>
+			<trans-unit id="tx_nitkundenstimmen_domain_model_kundenstimmen.customer">
+				<source>customer</source>
+			</trans-unit>
+			<trans-unit id="tx_nitkundenstimmen_domain_model_kundenstimmen.teaser">
+				<source>teaser</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

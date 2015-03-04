@@ -1,0 +1,14 @@
+plugin.tx_nitkundenstimmen {
+	view {
+		# cat=plugin.tx_nitkundenstimmen/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:nit_kundenstimmen/Resources/Private/Templates/
+		# cat=plugin.tx_nitkundenstimmen/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:nit_kundenstimmen/Resources/Private/Partials/
+		# cat=plugin.tx_nitkundenstimmen/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:nit_kundenstimmen/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_nitkundenstimmen//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

@@ -1,0 +1,39 @@
+plugin.tx_nitkundenstimmen {
+	view {
+		templateRootPath = {$plugin.tx_nitkundenstimmen.view.templateRootPath}
+		partialRootPath = {$plugin.tx_nitkundenstimmen.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_nitkundenstimmen.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_nitkundenstimmen.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_nitkundenstimmen._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-nit-kundenstimmen table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-nit-kundenstimmen table th {
+		font-weight:bold;
+	}
+
+	.tx-nit-kundenstimmen table td {
+		vertical-align:top;
+	}
+)
